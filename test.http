@@ -1,0 +1,10 @@
+GET http://127.0.0.1:7777/index.php
+
+###
+POST http://127.0.0.1:7777/s_php.php?param=value
+Content-Type: application/x-www-form-urlencoded
+
+key_post=val_post&key_post_2=val_post2
+
+###
+GET http://127.0.0.1:8888/
